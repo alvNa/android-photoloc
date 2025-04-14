@@ -3,4 +3,17 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    
+    <!-- Photo upload strings -->
+    <string name="uploaded_photo">Uploaded photo</string>
+    <string name="upload_icon">Upload icon</string>
+    <string name="drag_drop_or_tap_to_upload">Drag &amp; drop or tap to upload a photo</string>
+    
+    <!-- Permissions -->
+    <string name="permission_rationale">Location permission is needed to show your current location on the map, and storage permission is needed to access photos.</string>
+    <string name="permission_denied">Permissions denied. Some features will not be available.</string>
+    
+    <!-- Metadata info -->
+    <string name="no_location_in_image">No location data found in the image</string>
+    <string name="moving_to_photo_location">Moving to photo location…</string>
 </resources>
