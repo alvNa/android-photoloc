@@ -36,6 +36,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    buildToolsVersion = "35.0.0"
 }
 
 dependencies {
@@ -48,6 +49,17 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    
+    // Google Maps
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+    implementation("com.google.android.gms:play-services-location:21.1.0")
+    
+    // Exif metadata extraction
+    implementation("androidx.exifinterface:exifinterface:1.3.7")
+    
+    // Glide for image loading
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
